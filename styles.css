@@ -1,5 +1,6 @@
 /* Master styles */
 body {
+    background-color: lightblue;
     font-family: 'Shippori Mincho B1', serif;
     margin: 0px;
 }
@@ -9,8 +10,17 @@ body {
     grid-template-columns: 1fr;
 }
 
+/* Heading styles */
+.heading {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 30%;
+}
+
 /* Nav styles */
 .nav-wrapper {
+    background-color: antiquewhite;
     display: flex;
     justify-content: space-between;
     padding: 38px;
