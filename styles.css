@@ -10,6 +10,10 @@ body {
     grid-template-columns: 1fr;
 }
 
+.content-wrapper {
+    padding: 15px;
+}
+
 /* Heading styles */
 .heading {
     margin-left: auto;
@@ -115,22 +119,4 @@ body {
 .img-darken {
     transition: 1s;
     filter: brightness(10%);
-}
-
-/* About page */
-.two-column-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.profile-image-wrapper img {
-    width: 100%;
-}
-
-.profile-content-wrapper {
-    padding: 30px;
-}
-
-.profile-content-wrapper h1 {
-    color: purple;
 }
