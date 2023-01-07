@@ -70,7 +70,7 @@ body {
 }
 
 .active-nav-link a {
-    color: black !important;
+    color: black;
 }
 
 /* Portfolio styles */
